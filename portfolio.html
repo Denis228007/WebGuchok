@@ -1,42 +1,154 @@
 <!DOCTYPE html>
 <html lang="uk">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Моє Портфоліо</title>
-  <link rel="stylesheet" href="styles.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Портфоліо - КонфЕвент</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-  <header>
-    <h1>Моє Портфоліо</h1>
-    <p>Проекти, над якими я працював</p>
-  </header>
+    <header>
+        <div class="logo">
+            <h1>КонфЕвент</h1>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="index.html">Домашня</a></li>
+                <li><a href="about.html">Про нас</a></li>
+                <li><a href="services.html">Послуги</a></li>
+                <li><a href="portfolio.html" class="active">Портфоліо</a></li>
+                <li><a href="contacts.html">Контакти</a></li>
+            </ul>
+        </nav>
+    </header>
 
-  <section>
-    <h2>Про мене</h2>
-    <p>Я — веб-розробник з багаторічним досвідом у розробці сучасних веб-сайтів. Моя мета — створювати інтуїтивно зрозумілі та стильні інтерфейси для користувачів.</p>
-  </section>
+    <section class="page-banner">
+        <h2>Наше портфоліо</h2>
+    </section>
 
-  <section>
-    <h3>Мої навички</h3>
-    <p>Я маю досвід роботи з різноманітними технологіями, включаючи:</p>
-    <ul>
-      <li><span class="highlight">HTML5</span></li>
-      <li><span class="highlight">CSS3</span></li>
-      <li><span class="highlight">JavaScript</span></li>
-      <li><span class="highlight">React</span></li>
-      <li><span class="highlight">Node.js</span></li>
-    </ul>
-  </section>
+    <section class="portfolio-intro">
+        <h2>Наші успішні проекти</h2>
+        <p>За роки роботи ми організували десятки успішних конференцій та подій. Ось деякі з наших найкращих проектів.</p>
+    </section>
 
-  <section>
-    <h2>Проекти</h2>
-    <p>Ось кілька моїх проектів, якими я горджусь:</p>
-    <ul>
-      <li><strong>Проект 1:</strong> Розробка персонального блогу на React.</li>
-      <li><strong>Проект 2:</strong> Створення інтернет-магазину з використанням Node.js та Express.</li>
-      <li><strong>Проект 3:</strong> Веб-сайт для малого бізнесу, що працює на HTML, CSS та JavaScript.</li>
-    </ul>
-  </section>
+    <section class="portfolio-filter">
+        <h3>Фільтр подій:</h3>
+        <div class="filter-buttons">
+            <button class="filter-btn active">Всі</button>
+            <button class="filter-btn">Конференції</button>
+            <button class="filter-btn">Форуми</button>
+            <button class="filter-btn">Вебінари</button>
+        </div>
+    </section>
+
+    <section class="portfolio-gallery">
+        <div class="gallery-item">
+            <img src="https://www.ces.tech/media/5armpzp0/cb1_3616.jpg?width=1000&height=500&format=webp&quality=80" alt="IT-конференція 2024">
+            <div class="gallery-overlay">
+                <h3>IT-конференція 2024</h3>
+                <p>Київ, 1500 учасників</p>
+                <a href="#" class="btn-small">Детальніше</a>
+            </div>
+        </div>
+        <div class="gallery-item">
+            <img src="https://static.espreso.tv/uploads/photobank/335000_336000/335655_0225_new_960x380_0.webp" alt="Маркетинговий форум">
+            <div class="gallery-overlay">
+                <h3>Маркетинговий форум</h3>
+                <p>Львів, 800 учасників</p>
+                <a href="#" class="btn-small">Детальніше</a>
+            </div>
+        </div>
+        <div class="gallery-item">
+            <img src="https://wizeclub.education/wp-content/uploads/2023/11/seo-analytics-team-concept-illustration_114360-9205-1.jpg" alt="Вебінар з SEO">
+            <div class="gallery-overlay">
+                <h3>Вебінар з SEO</h3>
+                <p>Онлайн, 2000 учасників</p>
+                <a href="#" class="btn-small">Детальніше</a>
+            </div>
+        </div>
+        <div class="gallery-item">
+            <img src="https://silnayanaciya.org.ua/wp-content/uploads/2022/01/272686999_3037493613168991_5391903968047578426_n.jpeg" alt="Форум стартапів">
+            <div class="gallery-overlay">
+                <h3>Форум стартапів</h3>
+                <p>Одеса, 600 учасників</p>
+                <a href="#" class="btn-small">Детальніше</a>
+            </div>
+        </div>
+        <div class="gallery-item">
+            <img src="https://www.euam-ukraine.eu/wp-content/uploads/2024/11/Altcumva-0685-770x452.jpg" alt="Конференція з кібербезпеки">
+            <div class="gallery-overlay">
+                <h3>Конференція з кібербезпеки</h3>
+                <p>Харків, 700 учасників</p>
+                <a href="#" class="btn-small">Детальніше</a>
+            </div>
+        </div>
+        <div class="gallery-item">
+            <img src="https://nqa.gov.ua/uploads/0/1777-2023_09_28_16_49_05.jpg" alt="Вебінар з дизайну">
+            <div class="gallery-overlay">
+                <h3>Вебінар з дизайну</h3>
+                <p>Онлайн, 1500 учасників</p>
+                <a href="#" class="btn-small">Детальніше</a>
+            </div>
+        </div>
+    </section>
+
+    <section class="video-showcase">
+        <h2>Відео з наших подій</h2>
+        <div class="video-container">
+            <div class="video-item">
+                <video controls poster="https://www.youtube.com/shorts/WsxxDX_SrgE?feature=share">
+                    <source src="#" type="video/mp4">
+                    Ваш браузер не підтримує відео.
+                </video>
+                <h3>IT-конференція 2024 - Огляд</h3>
+            </div>
+            <div class="video-item">
+                <video controls poster="https://via.placeholder.com/400x225">
+                    <source src="#" type="video/mp4">
+                    Ваш браузер не підтримує відео.
+                </video>
+                <h3>Інтерв'ю зі спікерами</h3>
+            </div>
+        </div>
+    </section>
+
+    <section class="testimonials">
+        <h2>Відгуки клієнтів</h2>
+        <div class="testimonials-container">
+            <div class="testimonial">
+                <p>"КонфЕвент організував для нашої компанії чудову конференцію. Все було на найвищому рівні - від підготовки до проведення."</p>
+                <p class="author">- Ігор В., CEO IT-компанії</p>
+            </div>
+            <div class="testimonial">
+                <p>"Професійний підхід, увага до деталей та відмінна організація. Рекомендую КонфЕвент для проведення будь-яких подій."</p>
+                <p class="author">- Марина К., маркетинг-директор</p>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="footer-content">
+            <div class="footer-section">
+                <h3>КонфЕвент</h3>
+                <p>Організація конференцій та подій для професіоналів</p>
+            </div>
+            <div class="footer-section">
+                <h3>Контакти</h3>
+                <p>Email: info@confevent.ua</p>
+                <p>Телефон: +380 44 123 4567</p>
+            </div>
+            <div class="footer-section">
+                <h3>Слідкуйте за нами</h3>
+                <div class="social-links">
+                    <a href="#" class="social-link">Facebook</a>
+                    <a href="#" class="social-link">Twitter</a>
+                    <a href="#" class="social-link">Instagram</a>
+                </div>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2025 КонфЕвент. Усі права захищені.</p>
+        </div>
+    </footer>
 </body>
 </html>
