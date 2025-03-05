@@ -3,55 +3,174 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Послуги конференції</title>
+    <title>Послуги - КонфЕвент</title>
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
     <header>
+        <div class="logo">
+            <h1>КонфЕвент</h1>
+        </div>
         <nav>
             <ul>
                 <li><a href="index.html">Домашня</a></li>
                 <li><a href="about.html">Про нас</a></li>
-                <li><a href="services.html">Послуги</a></li>
+                <li><a href="services.html" class="active">Послуги</a></li>
                 <li><a href="portfolio.html">Портфоліо</a></li>
-                <li><a href="schedule.html">Розклад</a></li>
-                <li><a href="speakers.html">Спікери</a></li>
                 <li><a href="contacts.html">Контакти</a></li>
             </ul>
         </nav>
     </header>
 
-    <main>
-        <section class="services">
-            <h1>Послуги конференції</h1>
-            <p>Наш захід пропонує широкий спектр послуг для учасників та організаторів.</p>
+    <section class="page-banner">
+        <h2>Наші послуги</h2>
+    </section>
+
+    <section class="services-intro">
+        <h2>Ми допомагаємо організувати успішні події</h2>
+        <p>КонфЕвент пропонує повний спектр послуг з організації конференцій, семінарів, форумів та інших професійних подій.</p>
+    </section>
+
+    <section class="services-list">
+        <div class="service-item">
+            <img src="https://prime-event.com.ua/wp-content/uploads/2020/07/Konferentsiya.jpg" alt="Організація конференцій">
+            <h3>Організація конференцій</h3>
+            <p>Повний цикл організації конференцій різного масштабу - від невеликих галузевих зустрічей до великих міжнародних форумів.</p>
             <ul>
-                <li>Реєстрація учасників</li>
-                <li>Організація виступів та панельних дискусій</li>
-                <li>Технічна підтримка</li>
-                <li>Нетворкінг та спеціальні заходи</li>
-                <li>Доступ до відеозаписів після конференції</li>
-                <li>Можливість отримання сертифікатів учасника</li>
-                <li>VIP-зони для ексклюзивних зустрічей</li>
-                <li>Кава-брейки та харчування</li>
-                <li>Мобільний додаток для взаємодії з учасниками</li>
+                <li>Розробка концепції та програми</li>
+                <li>Підбір та підготовка майданчика</li>
+                <li>Технічне забезпечення</li>
+                <li>Робота зі спікерами</li>
             </ul>
-        </section>
+        </div>
         
-        <section class="extra-services">
-            <h2>Додаткові сервіси</h2>
-            <p>Ми також надаємо додаткові можливості для зручності учасників:</p>
+        <div class="service-item">
+            <img src="https://cdn1-admin.ojowo.com/posts/blog/webinar-benefits-ua.jpg" alt="Організація вебінарів">
+            <h3>Організація вебінарів</h3>
+            <p>Підготовка та проведення онлайн-заходів з використанням сучасних платформ для відеоконференцій.</p>
             <ul>
-                <li>Переклад виступів у режимі реального часу</li>
-                <li>Оренда приміщень для приватних зустрічей</li>
-                <li>Доступ до ексклюзивних матеріалів конференції</li>
-                <li>Підтримка організаторів та модераторів</li>
+                <li>Вибір та налаштування платформи</li>
+                <li>Технічна підтримка учасників</li>
+                <li>Запис та монтаж відео</li>
+                <li>Аналітика та звітність</li>
             </ul>
-        </section>
-    </main>
+        </div>
+        
+        <div class="service-item">
+            <img src="https://idmarketing.com.ua/wp-content/uploads/2023/09/event-marketing-750x430-1.jpg" alt="Маркетинг подій">
+            <h3>Маркетинг подій</h3>
+            <p>Комплексне просування заходів для залучення цільової аудиторії та досягнення максимальної ефективності.</p>
+            <ul>
+                <li>Розробка маркетингової стратегії</li>
+                <li>SMM та email-маркетинг</li>
+                <li>Контекстна та таргетована реклама</li>
+                <li>PR-підтримка</li>
+            </ul>
+        </div>
+    </section>
+
+    <section class="schedule">
+        <h2>Розклад найближчих подій</h2>
+        <table class="schedule-table">
+            <thead>
+                <tr>
+                    <th>Дата</th>
+                    <th>Подія</th>
+                    <th>Місце</th>
+                    <th>Спікери</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>15 червня 2025</td>
+                    <td>Конференція з веб-розробки</td>
+                    <td>Київ, Конференц-центр "Інновація"</td>
+                    <td>О. Петренко, М. Коваленко</td>
+                </tr>
+                <tr>
+                    <td>22 липня 2025</td>
+                    <td>Маркетинговий форум</td>
+                    <td>Львів, Готель "Леополіс"</td>
+                    <td>І. Сидоренко, А. Мельник</td>
+                </tr>
+                <tr>
+                    <td>10 серпня 2025</td>
+                    <td>Технологічний саміт</td>
+                    <td>Одеса, IT Hub</td>
+                    <td>В. Ковальчук, Н. Шевченко</td>
+                </tr>
+                <tr>
+                    <td>5 вересня 2025</td>
+                    <td>Форум з кібербезпеки</td>
+                    <td>Харків, Технопарк</td>
+                    <td>С. Мельник, О. Лисенко</td>
+                </tr>
+            </tbody>
+        </table>
+    </section>
+
+    <section class="pricing">
+        <h2>Вартість послуг</h2>
+        <div class="pricing-container">
+            <div class="pricing-card">
+                <h3>Базовий</h3>
+                <p class="price">від 20 000 грн</p>
+                <ul>
+                    <li>Розробка концепції</li>
+                    <li>Підбір спікерів</li>
+                    <li>Базовий маркетинг</li>
+                    <li>Технічна підтримка</li>
+                </ul>
+                <a href="contacts.html" class="btn">Замовити</a>
+            </div>
+            <div class="pricing-card featured">
+                <h3>Стандарт</h3>
+                <p class="price">від 50 000 грн</p>
+                <ul>
+                    <li>Все з пакету "Базовий"</li>
+                    <li>Повний маркетинговий супровід</li>
+                    <li>Організація кейтерингу</li>
+                    <li>Фото- та відеозйомка</li>
+                </ul>
+                <a href="contacts.html" class="btn">Замовити</a>
+            </div>
+            <div class="pricing-card">
+                <h3>Преміум</h3>
+                <p class="price">від 100 000 грн</p>
+                <ul>
+                    <li>Все з пакету "Стандарт"</li>
+                    <li>VIP-обслуговування</li>
+                    <li>Брендування події</li>
+                    <li>Повний аналіз результатів</li>
+                </ul>
+                <a href="contacts.html" class="btn">Замовити</a>
+            </div>
+        </div>
+    </section>
 
     <footer>
-        <p>&copy; 2025 Конференція. Усі права захищено.</p>
+        <div class="footer-content">
+            <div class="footer-section">
+                <h3>КонфЕвент</h3>
+                <p>Організація конференцій та подій для професіоналів</p>
+            </div>
+            <div class="footer-section">
+                <h3>Контакти</h3>
+                <p>Email: info@confevent.ua</p>
+                <p>Телефон: +380 44 123 4567</p>
+            </div>
+            <div class="footer-section">
+                <h3>Слідкуйте за нами</h3>
+                <div class="social-links">
+                    <a href="#" class="social-link">Facebook</a>
+                    <a href="#" class="social-link">Twitter</a>
+                    <a href="#" class="social-link">Instagram</a>
+                </div>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2025 КонфЕвент. Усі права захищені.</p>
+        </div>
     </footer>
 </body>
 </html>
